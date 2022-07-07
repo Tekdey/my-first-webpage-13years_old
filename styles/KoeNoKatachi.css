@@ -1,0 +1,138 @@
+body {
+	background: no-repeat, repeat;
+	background-image: url("images/fond3.jpg"),url("images/fond4.jpg");
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: absolute;
+	position: fixed;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 3px solid black;
+	z-index: 1;
+}
+.ghtml {
+	position: absolute;
+	position: fixed;
+	z-index: 2;
+	top: 56px;
+	left: 623.5px;
+}
+.dcss {
+	position: absolute;
+	position: fixed;
+	z-index: 2;
+	top: 58px;
+	left: 1100px;
+}
+.midKoe1 {
+	position: absolute;
+	position: fixed;
+	z-index: 4;
+	top: 40px;
+	left: 895px;
+
+}
+.midKoe {
+	position: absolute;
+	position: fixed;
+	z-index: 100;
+	top: 40px;
+	left: 895px;
+}
+section {
+	border: 7.5px solid black;
+	margin-right: 25%;
+	margin-left: 25%;
+	position: relative;
+	width: 50%;
+	height: 880px;
+	display: inline-block;
+}
+footer {
+	clear: both;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#footer {
+	border: 3px solid black;
+}
+#titre {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 140px;
+	z-index: 1;
+	border: 3px solid black;
+}
+#contener1 {
+	margin-top: 10px;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.element1:nth-child(1) {
+	order: 1;
+	flex: 1;
+}
+.element1:nth-child(2) {
+	order: 2;
+	flex: 2;
+}
+#imgT1 {
+	margin-left: 25%;
+	border: 3px solid white;
+	box-shadow: 0 2px 2px 0 black;
+}
+#imgT2 {
+	margin-left: 25%;
+	border: 3px solid white;
+	box-shadow: 0 2px 2px 0 black;
+}
+#contener2 {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.element2:nth-child(1) {
+	order: 2;
+	flex: 1;
+}
+.element2:nth-child(2) {
+	order: 1;
+	flex: 2;
+}
+p {
+	width: 600px;
+    height: 150px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-align: justify;
+    overflow: auto;
+    font-family: "Bunch Of Flowers Personal Use";
+    font-size: 23px;
+    text-shadow: 2px 2px black;
+}/
+@font-face{
+	font-family: 'Bunch Of Flowers Personnal Use';
+	src: url('fonts/Bunch of Flowers Personal Use.eot') format('eot');
+	src: url('fonts/Bunch of Flowers Personal Use.woff') format('woff');
+	src: url('fonts/Bunch of Flowers Personal Use.truetype') format('truetype');
+	src: url('fonts/Bunch of Flowers Personal Use.svg') format('svg');
+}
+h1 {
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	font-family: "Bunch Of Flowers Personal Use";
+}
+video {
+	border: 2px solid white;
+	box-shadow: 0 5px 5px 0;
+
+}
